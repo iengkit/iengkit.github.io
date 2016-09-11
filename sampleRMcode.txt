@@ -1,4 +1,5 @@
-#SAMPLE CODE
+# SAMPLE CODE
+
 options(na.action=na.omit)
 dat <-read.table("dataset.txt", header=T)
 previous10.home = (dat$X1points + dat$X2points + dat$X3points + dat$X4points + dat$X5points + dat$X6points + dat$X7points + dat$X8points + dat$X9points + dat$X10points)/10

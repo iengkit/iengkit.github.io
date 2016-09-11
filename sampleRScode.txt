@@ -1,4 +1,4 @@
-%SAMPLE CODE
+% SAMPLE CODE
 
 %Guass Stieltjes procedure for computing recurrence coefficients
 % alpha and beta for weight function w(x)=x*x*exp(-x*x)

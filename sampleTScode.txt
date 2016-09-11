@@ -1,4 +1,4 @@
-#SAMPLE CODE
+# SAMPLE CODE
 
 data <- read.table("sp500futures.csv", header=T, sep=",")
 x <- ts(rev(data$Price), frequency = 5, start = as.Date("2015-11-30"))

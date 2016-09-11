@@ -1,4 +1,6 @@
-// SAMPLE CODE FOR TESTING THE PARSERpackage com.google.culturalcompass;
+// SAMPLE CODE (Parser)
+
+package com.google.culturalcompass;
 
 import java.io.InputStream;
 import java.net.URL;
@@ -104,7 +106,7 @@ public class Reader {
 
 //------------------------------------------------------------------------------------------------------------------
 
-// SAMPLE Junit tests
+// SAMPLE CODE (Junit tests)
 
 package com.google.culturalcompass;
 

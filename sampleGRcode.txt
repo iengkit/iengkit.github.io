@@ -1,4 +1,4 @@
-#SAMPLE CODE
+# SAMPLE CODE
 
 from random import randint
 

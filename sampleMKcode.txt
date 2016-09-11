@@ -1,4 +1,4 @@
-# SAMPLE CODE FROM THE ACTUAL PROGRAM
+# SAMPLE CODE
 
 def main(k, T, filename):
 

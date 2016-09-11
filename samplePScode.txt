@@ -1,37 +1,37 @@
-#SAMPLE CODE WITH APPLICATION TO GOLDBACH CONJECTURE IN PARTICULAR
+# SAMPLE CODE (with application to Goldbach Conjecture)
 
-def prime_sieve():
-D = {}
-q = 2
+def p_sieve():
+K = {}
+s = 2
 while True:
-    if q not in D:
-	yield q
-	D[q * q] = [q]
+    if s not in K:
+	yield s
+	K[s * s] = [s]
     else:
-	for p in D[q]:
-            D.setdefault(p+q, []).append(p)
-        del D[q]
-    q += 1
+	for j in K[s]:
+            K.setdefault(j+s, []).append(j)
+        del K[s]
+    s += 1
 
-def binarySearch(input, target):
-	if not input or not target:
+def binSearch(inpt, tgt):
+	if not inpt or not tgt:
 		return False
-	first = 0
-	last = len(input) - 1
-	found = False
-	while (first <= last) and not found:
-		midpoint = (first + last) // 2
-		if last == first:
+	fst = 0
+	lst = len(ipt) - 1
+	fd = False
+	while (fst <= lst) and not fd:
+		mpt = (fst + lst) // 2
+		if lst == fst:
 			return False
-		if input[midpoint] < target:
-			first = midpoint + 1
+		if inpt[mp] < tgt:
+			fst = mpt + 1
 			continue
-		if input[midpoint] > target:
-			last = midpoint
+		if input[mpt] > tgt:
+			lst = mpt
 			continue
 		else: 
-			found = True
-		return found
+			fd = True
+		return fd
 
 def is_even(n):
 	if n % 2 == 0:
@@ -40,7 +40,7 @@ def is_even(n):
 		return False
 
 def is_prime(primeList, n):
-	return binarySearch(primeList, n)
+	return binSearch(primeList, n)
 
 def primePair(primeList, z)
 for i in primeList:
