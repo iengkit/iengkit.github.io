@@ -18,10 +18,6 @@
 		vertical-align: baseline;
 	}
 
-	#my{
-		zoom: 75%;
-	}
-
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block;
 	}
