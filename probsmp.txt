@@ -1,3 +1,5 @@
+© Ieng Kit Ho, 2016. All rights reserved. Cannot be copied, re-used, or edited
+
 #PROBABILITY ESTIMATION ALGORITHM FOR REJECTION SAMPLING
 options(max.print=100000)
 dat <- read.table("rs_1.csv")

@@ -1,3 +1,5 @@
+© Ieng Kit Ho, 2016. All rights reserved. Cannot be copied, re-used, or edited
+
 gibbs <- function(n) {
 sA <- c(1); sC <- c(1); sD <- c(1); sS <- c("NA")
 dfi <- data.frame("A" = sA, "C" = sC, "D" = sD, "Sampled" = sS);

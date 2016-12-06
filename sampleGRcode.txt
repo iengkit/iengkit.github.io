@@ -1,3 +1,5 @@
+© Ieng Kit Ho, 2016. All rights reserved. Cannot be copied, re-used, or edited
+
 # SAMPLE CODE
 
 # initialize states
