@@ -1699,11 +1699,11 @@
 /* Articles */
 
 	#top .image {
-		border-radius: 50%;
+		border-radius: 40%;
 	}
 
 		#top .image img {
-			border-radius: 50%;
+			border-radius: 40%;
 		}
 
 	#top p a {
@@ -1870,8 +1870,8 @@
 			}
 
 				#top .image {
-					width: 20em;
-					height: 20em;
+					width: 14.5em;
+					height: 14.5em;
 					margin: 0;
 				}
 
